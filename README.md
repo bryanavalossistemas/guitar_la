@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# 🎶 Tienda Virtual de Instrumentos Musicales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/license-MIT-blue)  
+![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow)  
+![Stack](https://img.shields.io/badge/stack-React%20%7C%20Node%20%7C%20PostgreSQL-orange)
 
-Currently, two official plugins are available:
+Una **tienda virtual especializada en guitarras e instrumentos musicales**, donde los usuarios pueden explorar un catálogo interactivo, agregar productos al carrito de compras y realizar pedidos en línea de manera sencilla y segura.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🛒 **Catálogo de guitarras** con imágenes, descripciones y precios.  
+- 🛍️ **Carrito de compras** dinámico con actualización en tiempo real.  
+- 📦 **Gestión de pedidos** con estados de compra (pendiente, enviado, entregado).  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Tecnologías utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend:** React + TailwindCSS  
+- **Control de versiones:** Git & GitHub  
+
+---
+
+## 📂 Estructura del proyecto
+
+```bash
+tienda-instrumentos/
+├── backend/              # API y lógica de negocio
+├── frontend/             # Interfaz de usuario
+├── docs/                 # Documentación y capturas
+└── README.md             # Descripción del proyecto
